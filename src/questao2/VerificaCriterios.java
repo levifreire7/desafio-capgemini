@@ -93,7 +93,7 @@ public class VerificaCriterios {
 	* Verifica se a senha possui caracteres especiais.
 	*
 	* @param senha Senha digitada pelo usuário
-	* @return true se a senha possui no mínimo 1 caractere especial !@#$%^&*()-+, false caso contrário.
+	* @return true se a senha possui no mínimo 1 caractere especial, false caso contrário.
 	*/
 	public static boolean possuiCaracteresEspeciais(String senha) {
 		if (senha == null)
