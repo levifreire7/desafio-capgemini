@@ -20,6 +20,14 @@ public class AnagramasTest {
 
 		subStrings = Anagramas.geraSubStrings("ovo");
 		Assert.assertEquals(lista, subStrings);
+		
+		lista = new ArrayList<>(Arrays.asList("i", "f", "a", "i", "l", "u", "h", "k", "q", "q", "fi", "af", "ai", "il", "lu", "hu", "hk",
+				"kq", "qq", "afi", "afi", "ail", "ilu", "hlu", "hku", "hkq", "kqq", "afii", "afil", "ailu", "hilu", "hklu", "hkqu", "hkqq",
+				"afiil", "afilu", "ahilu", "hiklu", "hklqu", "hkqqu", "afiilu", "afhilu", "ahiklu", "hiklqu", "hklqqu", "afhiilu", "afhiklu",
+				"ahiklqu", "hiklqqu", "afhiiklu", "afhiklqu", "ahiklqqu", "afhiiklqu", "afhiklqqu"));
+		
+		subStrings = Anagramas.geraSubStrings("ifailuhkqq");
+		Assert.assertEquals(lista, subStrings);
 	}
 
 	@Test
@@ -31,6 +39,14 @@ public class AnagramasTest {
 
 		quantidadeAnagramas = Anagramas.verificaQuantidadeAnagramas(lista);
 		Assert.assertEquals(2, quantidadeAnagramas);
+		
+		lista = new ArrayList<>(Arrays.asList("i", "f", "a", "i", "l", "u", "h", "k", "q", "q", "fi", "af", "ai", "il", "lu", "hu", "hk",
+				"kq", "qq", "afi", "afi", "ail", "ilu", "hlu", "hku", "hkq", "kqq", "afii", "afil", "ailu", "hilu", "hklu", "hkqu", "hkqq",
+				"afiil", "afilu", "ahilu", "hiklu", "hklqu", "hkqqu", "afiilu", "afhilu", "ahiklu", "hiklqu", "hklqqu", "afhiilu", "afhiklu",
+				"ahiklqu", "hiklqqu", "afhiiklu", "afhiklqu", "ahiklqqu", "afhiiklqu", "afhiklqqu"));
+		
+		quantidadeAnagramas = Anagramas.verificaQuantidadeAnagramas(lista);
+		Assert.assertEquals(3, quantidadeAnagramas);
 
 	}
 }

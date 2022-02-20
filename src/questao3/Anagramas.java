@@ -24,7 +24,7 @@ public class Anagramas {
 
 		String palavra = sc.nextLine();
 		
-		List<String> subStrings = geraSubStrings(palavra);
+		List<String> subStrings = geraSubStrings(palavra);		
 		
 		int quantidadeAnagramas = verificaQuantidadeAnagramas(subStrings);
 
