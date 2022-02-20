@@ -1,3 +1,6 @@
+/**
+ * questao2 Pacote da resolução da questão 2.
+ */
 package questao2;
 
 import java.util.regex.Matcher;

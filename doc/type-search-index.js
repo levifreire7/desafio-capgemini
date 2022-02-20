@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"questao3","l":"Anagramas"},{"p":"questao1","l":"Escada"},{"p":"questao2","l":"VerificaCriterios"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"questao3","l":"Anagramas"},{"p":"questao1","l":"Escada"},{"p":"questao2","l":"SenhaSegura"},{"p":"questao2","l":"VerificaCriterios"}];updateSearchResults();
