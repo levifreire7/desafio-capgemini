@@ -57,7 +57,7 @@ public class VerificaCriterios {
 	}
 
 	/**
-	* Verifica se a senha possui letras minúsculas.
+	* Verifica se a senha possui no mínimo 1 letra minúscula.
 	*
 	* @param senha Senha digitada pelo usuário
 	* @return true se a senha possui no mínimo 1 letra minúscula, false caso contrário.
@@ -75,7 +75,7 @@ public class VerificaCriterios {
 	}
 
 	/**
-	* Verifica se a senha possui letras maiúsculas.
+	* Verifica se a senha possui no mínimo 1 letra maiúscula.
 	*
 	* @param senha Senha digitada pelo usuário
 	* @return true se a senha possui no mínimo 1 letra maiúscula, false caso contrário.
@@ -93,7 +93,7 @@ public class VerificaCriterios {
 	}
 
 	/**
-	* Verifica se a senha possui caracteres especiais.
+	* Verifica se a senha possui no mínimo 1 caracter especial.
 	*
 	* @param senha Senha digitada pelo usuário
 	* @return true se a senha possui no mínimo 1 caractere especial, false caso contrário.

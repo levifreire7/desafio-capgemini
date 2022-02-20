@@ -34,9 +34,9 @@ public class Anagramas {
 	}
 
 	/**
-     * Gera uma lista de substrings dada uma string de entrada.
+     * Gera uma lista de substrings, dada uma palavra qualquer de entrada.
      * 
-     * @param palavra String a ser dividida em substrings.
+     * @param palavra String a ser dividida em uma lista de substrings.
      * @return Lista de substrings.
      */
 	public static List<String> geraSubStrings(String palavra) {

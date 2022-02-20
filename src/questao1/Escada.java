@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * Classe responsável por mostrar na tela uma escada
- * de altura e base n utilizando espaços e o caractere *
+ * de altura e base n utilizando espaços e o caractere *.
  *
  * @author Levi Freire da Rocha
  */
@@ -37,7 +37,7 @@ public class Escada {
 	}
 
 	/**
-     * Método que retorna um degrau (String) composto por uma sequência de *.
+     * Método que retorna um String (que representa um degrau) composta por uma sequência de *.
      * @param tamanhoDegrau Tamanho do degrau a ser exibido.
      * @return Degrau (String) de tamanho n.
      */
