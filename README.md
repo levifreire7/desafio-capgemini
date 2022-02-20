@@ -35,7 +35,7 @@ Os mesmos podem sem encontrados em:
 
 A documentação da aplicação encontra-se na pasta 'doc', no diretório principal.
 
-**Documentação:** desafio-capgemini/doc/
+**Documentação:** desafio-capgemini/doc/index.html
 
 
 
